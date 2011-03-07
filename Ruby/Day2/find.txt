@@ -1,0 +1,13 @@
+-) Translate hash to array
+  a = {:a => 'one', :b => 'two'}
+  a.to_a
+
+-) Array to hash
+  a = [1, 2, 3]
+  Hash[*a.collect { |v|
+        [v, v*2]
+  }.flatten]
+
+-) Iterate through a hash
+  a = {:a => 'one', :b => 'two'}
+  a.each {|key, value| puts "#{key} => #{value}"}
