@@ -1,0 +1,7 @@
+The whole point of Mary Poppins is that she made the household better as a whole
+by making it fun and changing the hearts of the people in it with passion and
+imagination. You could back off a little and play it safe, using Ruby to do the
+same things you already know how to do in other languages. But when you change
+the way a language looks and works, you can capture magic that makes programming
+fun. In this book, each chapter will show you some nontrivial problem that the
+language solves well. In Ruby, that means metaprogramming.
